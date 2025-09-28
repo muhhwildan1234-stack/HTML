@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="ligth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 5 Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <h1>HTML 5 Form</h1>
+      <hr />
+      <form>
+        <div>
+          <!-- tips shortcut: input:[type-nya] -->
+          <label for="InputName">Nama Lengkap</label>
+          <input type="text" name="Nama_lengkap" id="InputName" />
+        </div>
+        <br />
+        <div>
+          <!-- tips shortcut: input:[type-nya] -->
+          <label for="InputAge">Umur</label>
+          <input type="number" name="Nama_lengkap" id="InputAge" />
+        </div>
+        <div>
+          <label for="inputBio">Biografi</label>
+          <textarea name="bio" id="inputBio"></textarea>
+        </div>
+        <div>
+          <p>Jenis Kelamin</p>
+          <input type="radio" name="jenis_kelamin" id="InputLanang" />
+          <label for="InputLanang">Laki-laki</label>
+          <input type="radio" name="jenis_kelamin" id="InputWedok" />
+          <label for="InputWedok">Perempuan</label>
+          <br /><br />
+        </div>
+        <div>
+          <p>Hobi/Minat</p>
+          <input type="checkbox" name="Hobi" id="InputLanang" />
+          <label for="Hobi">Mancing</label>
+          <input type="checkbox" name="Hobi" id="InputLanang" />
+          <label for="Hobi">Balap liar</label>
+          <input type="checkbox" name="Hobi" id="InputLanang" />
+          <label for="Hobi">Modif Motor</label>
+          <input type="checkbox" name="Hobi" id="InputLanang" />
+          <label for="Hobi">Nonton Anime</label>
+          <br />
+          <br />
+        </div>
+        <div>
+          <label for="InputAsal">Asal Daerah</label>
+          <!-- tips shortcut: select>option*4 -->
+          <select name="AsalDaerah" id="InputAsal">
+            <option value="JKT">jakarta</option>
+            <option value="BGR">Bogor</option>
+            <option value="PRJ">Purworejo</option>
+            <option value="YOG">Yogyakarta</option>
+          </select>
+          <br> <br>
+        </div>
+        <div>
+            <p>Masukan File</p>
+            <input type="file" name="File" id="InputFile" />
+          <label for="File"></label>
+        </div>
+        <div>
+            <p>Masukan Umur Anda</p>
+            <input type="Date" name="Date" id="Inputdate" />
+          <label for="Date"></label>
+        </div>
+        <!-- Action buttons -->
+        <!-- tips shortcut: button: [type nya] -->
+        <div class="grid">
+          <button type="reset">Batalkan</button>
+          <button type="submit">Kirim</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

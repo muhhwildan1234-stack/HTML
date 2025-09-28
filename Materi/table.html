@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML 5 Table</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      #table-basic {
+        width: 60%;
+        border-collapse: collapse;
+      }
+      #table-basic td {
+        padding: 6px;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+      #table-basic .bg-header {
+        background-color: black;
+        color: azure;
+        font-weight: 100;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HTML 5 TABLE</h1>
+    <hr />
+    <h3>Table Basic</h3>
+    <!-- wajib ada <table> membuat struktur table -->
+    <!-- attr border: memberi garis ditepi table -->
+    <table border="1" id="table-basic">
+      <!-- <tr> buat baris baru -->
+      <!-- <td> buat cell/kolom data baru -->
+      <!-- tips shortcut: tr>td*3 -->
+      <tr class="bg-header">
+        <td>No</td>
+        <td>Nama</td>
+        <td>Hiburan Faforit</td>
+        <td>Hobi Lain</td>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>Wildan</td>
+        <td>Balap Liar</td>
+        <td>Modip pario</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Adul</td>
+        <td>Makan Gorengan</td>
+        <td>Revo</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Pawas</td>
+        <td>Dugem</td>
+        <td>baca Nopel</td>
+      </tr>
+    </table>
+
+    <h3>Table HTML 5</h3>
+    <!-- Tips shortcut: table>thead+tbody+tfoot -->
+    <table border="1" style="width: 60%">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Tanggal</th>
+          <th>Nama Barang</th>
+          <th>Harga Barang</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>20/09/2025</td>
+          <td>Velg VND</td>
+          <td>Rp 2.000.000</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>29/09/2025</td>
+          <td>ARM Luster V2</td>
+          <td>Rp 3.900.000</td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>28/09/2025</td>
+          <td rowspan="2">Body fulset v Led Old</td>
+          <td>Rp 1.500.000</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>25/09/2025</td>
+          <!-- di hapus karena ada rowspan diatas -->
+          <!-- <td>Body fulset v Led Old </td> -->
+          <td>Rp 1.500.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><b>Total Pengeluaran</b></td>
+          <td><b>Rp 8.900.000</b></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
