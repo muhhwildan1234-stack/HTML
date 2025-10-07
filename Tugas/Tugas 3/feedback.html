@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>feedback</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="div">
+        <img src="image/logo.webp" alt="Logo" width="200" class="Logo" />
+        <h1>Formulir umpan balik</h1>
+        <p>Kritik,saran dan masukan</p>
+      </div>
+      <hr />
+      <br />
+      <div class="nav">
+        <a href="index.html">Beranda</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="jadwal.html">jadwal</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="feedback.html" class="active">Feedback</a>
+      </div>
+      <br />
+      <hr />
+      <div class="box-feedback">
+        <h3>Formulir dan kotak saran</h3>
+        <p>
+          berikan masukan terbaik Anda untuk pengembangan website profile ini.
+          <br />
+          Semua input bersifat wajib kecuali nama.
+        </p>
+
+        <div class="box-form">
+          <form>
+            <label>Nama anda (opsional):</label>
+            <input type="text" placeholder="Tulis nama anda" />
+
+            <label>Email anda:</label>
+            <input type="text" placeholder="Tulis email anda" />
+
+            <label>Rating kepuasan website skala (1-10)</label>
+            <input
+              type="number"
+              min="1"
+              max="10"
+              placeholder="masukan angka 1-10"
+            />
+
+            <label>Rekomendasi Website Ini?</label>
+            <div>
+              <input type="radio" name="rekom" value="ya" /> Ya, Sangat
+              <input type="radio" name="rekom" value="mungkin" /> Mungkin Saja
+              <input type="radio" name="rekom" value="tidak" /> Tidak
+            </div>
+
+            <label>Saran Pengembangan di Bidang:</label>
+            <select>
+              <option>-- Pilih Bidang --</option>
+              <option>Desain</option>
+              <option>Konten</option>
+              <option>Fitur</option>
+            </select>
+            <label>Pesan/Saran Lengkap:</label>
+            <textarea
+              placeholder="Tulis pesan dan saran Anda di sini..."
+            ></textarea>
+
+            <div class="form-buttons">
+              <button type="reset" class="reset">Atur Ulang</button>
+              <button type="submit" class="submit">Kirim Feedback</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© 2025 HSI Boarding School Purworejo</p>
+      <p>Dibuat oleh Wildan Maulana</p>
+    </footer>
+  </body>
+</html>

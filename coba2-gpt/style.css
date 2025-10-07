@@ -1,0 +1,133 @@
+/* Background gradient bergerak */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(270deg, #14e3d2, #747575);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+  color: #111;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Container utama */
+.container {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+/* Foto profil */
+.header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 0%;
+  border: 0px solid #fff;
+  box-shadow: 0 px 1px rgba(0,0,0,0.2);
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Judul dan deskripsi */
+.header h1 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 40px;
+}
+.header p {
+  color: #f5f5f5;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Box biodata */
+.box, .box-feedback {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 30px auto;
+  padding: 25px;
+  text-align: left;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+/* Efek muncul saat scroll */
+.box.show, .box-feedback.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Judul tiap box */
+.box h3, .box-feedback h3 {
+  border-left: 5px solid #22c55e;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  color: #0d6efd;
+}
+
+/* List */
+ul, ol {
+  margin-left: 30px;
+  line-height: 1.8;
+}
+
+/* Hover efek */
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Tombol scroll ke atas */
+#toTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  transition: 0.3s;
+}
+#toTop:hover {
+  background: #22c55e;
+}
+
+/* Form */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+button.submit {
+  margin-top: 15px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button.submit:hover {
+  background: #22c55e;
+}
