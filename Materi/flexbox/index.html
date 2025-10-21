@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3: Flexbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSS3: Flexbox</h1>
+      <hr />
+      <br />
+      <br />
+      <!-- wadah/parrent display flex -->
+      <div class="flex-area">
+        <!-- item didalam flex disebut flex item -->
+        <div class="card">A</div>
+        <div class="card border-blue">B</div>
+        <div class="card">C</div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br /><br />
+      <!-- membuat tampilan alert -->
+      <div class="flex-area alert">
+        <p>ℹ️info: pastikan semua data sudah terisi</p>
+        <button type="button" onclick="this.parentElement.style.display='none'">
+          ❌
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

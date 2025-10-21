@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 50px;
-  background: linear-gradient(270deg, #8b94f1, #fbfcfe);
+  background: linear-gradient(270deg, #7f7fd5, #86a8e7, #91eae4);
 }
 
 .Logo {
@@ -165,7 +165,7 @@ body {
 .box img {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .box-feedback {

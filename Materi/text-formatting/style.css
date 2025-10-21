@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+.text-center {
+  text-align: center;
+}
+
+.text-kiri {
+  text-align: left;
+}
+
+.text-kanan {
+  text-align: right;
+}
+
+.text-tengah {
+  text-align: center;
+}
+
+.text-rata {
+  text-align: justify;
+}
+
+.menyala {
+  /* ukuran font */
+  font-size: 50px;
+  color: rgb(239, 8, 8);
+}
+
+.gelap {
+  color: rgb(2, 6, 251);
+  font-weight: bold;
+}
+
+.button-save {
+  /* ubah dekorasim text */
+  text-decoration: none;
+  padding: 6px, 10px;
+  color: blue;
+  background: darkblue;
+}
+
+.coret {
+  text-decoration: line-through;
+}
+/* atur rendah text */
+.text-rendah {
+  line-height: 0, 9;
+  background-color: yellow;
+  padding: 4px;
+}
+/* atur tingi text */
+.text-tinggi {
+  line-height: 1, 5;
+  background-color: yellowgreen;
+  padding: 4px;
+}
+
+.text-rapat {
+  letter-spacing: -2px;
+  background-color: rgb(0, 0, 255);
+  padding: 4px;
+}
+
+.text-longgar {
+  letter-spacing: 4px;
+  padding: 4px;
+  background-color: green;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text-padat{
+background-color: aqua;
+word-spacing: -4px;
+padding: 4px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text-selow{
+word-spacing: 6px;
+background-color: bisque;
+padding: 6px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}

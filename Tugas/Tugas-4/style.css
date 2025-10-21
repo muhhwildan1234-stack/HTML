@@ -1,0 +1,87 @@
+@font-face {
+    font-family: quicksand;
+    src: url(Font/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(Font/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: bismillah-script;
+    src: url(Font/Bismillah\ Script.ttf);
+}
+
+@font-face {
+    font-family: ptserif;
+    src: url(Font/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: dancing-script;
+    src: url(Font/DancingScript-VariableFont_wght.ttf);
+}
+
+body{
+    background: linear-gradient(270deg, #E55D87,#5FC3E4);   
+}
+
+.header{
+    text-align: center;
+    font-family:ptserif ;
+    font-size: 45px;
+}
+
+.paragraf{
+    font-family: dancing-script;
+    text-align: center;
+    font-size: 25px;
+}
+
+.box-1{
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    width: 900px;
+    box-shadow: 5px 4px 10px ;
+    margin: 20px auto ;
+}
+
+.box-1 h2{
+    font-family: raleway; 
+    border-left: 5px solid rgb(16, 169, 2);
+    padding-left: 8px;
+    
+}
+
+.box-1 p{
+    font-family: quicksand;
+}
+
+.box-1 blockquote{
+    font-family: raleway;
+}
+
+.ttd{
+    text-align: right;
+    margin: 30px;
+}
+
+.ttd h3{
+    font-family: raleway;
+    font-size: 30px;
+}
+.ttd h4{
+    font-family: bismillah-script;
+    font-size: 50px;
+}
+
+.footer{
+    text-align: center;
+    background: #eef0f2;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin: 10px auto;
+
+}

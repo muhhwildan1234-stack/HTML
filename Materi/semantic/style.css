@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background: linear-gradient(270deg, #fff, #4facfe);
 }
 
 /* Warna latar untuk memvisualisasikan blok */

@@ -1,0 +1,89 @@
+body{
+    background:linear-gradient(200deg, rgb(232, 194, 194), rgb(242, 242, 244)) 
+}
+
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 250px;
+  width: 250px;
+  border: 2px dashed #333;
+  border-radius: 6px;
+}
+
+.container h1{
+    text-align: center;
+}
+.area {
+  width: 200px;
+  height: 200px;
+  place-content: center;
+}
+
+.area h3,
+.area p {
+  margin: 0 auto;
+}
+.area p {
+  font-size: 14px;
+  color: #666;
+}
+
+#box-a{
+    background: yellow;
+}
+
+#box-b{
+    background: yellow;
+    padding: 30px;
+}
+
+#box-c{
+    background: orange;
+    padding: 30px;
+    border: 10px solid #333;
+}
+
+#box-d{
+    background: orangered;
+    padding: 30px;
+    border: 10px solid #333;
+    /* margin: 35px; */
+    /* margin-top: 50px; */
+    /* margin-right: 35px; */
+    /* margin-bottom: 0px; */
+    /* margin-left: 25px; */
+    margin: 50px 35px 0px 25px;
+}
+
+#box-static{
+    /* box-box positions */
+    background: plum;
+    /* default sudah static */
+    /* position: static; */
+}
+
+#box-relative{
+    background: pink;
+    position: relative;
+    bottom: 25px;
+    right: 30px;
+}
+
+#box-absolute{
+    background: yellowgreen;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+}
+
+#box-fixed{
+    background: yellowgreen;
+    position: fixed;
+    bottom: 2px;
+    right: 5px;
+}
+
+

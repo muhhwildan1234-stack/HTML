@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(270deg, #9796f0, #fbc7d4);
+}
+
+.card {
+  background: #f9f9f9;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #575454;
+  border-radius: 6px;
+  box-shadow: 0 8px 8px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.border-blue {
+  border-color: blue;
+  height: 220px;
+  width: 220px;
+}
+
+/* wadah parent / flexnya */
+.flex-area {
+  display: flex;
+  /* atur posisi item secara horizontal */
+  justify-content: center;
+  /* gap = jarak antar items */
+  gap: 12px;
+  /* atur posisi item menguti titik tengah (sumbu x) */
+  align-items: center;
+}
+
+.alert {
+  width: 600px;
+  background: aqua;
+  justify-content: space-between  ;
+  padding: 7px;
+  height: 30px;
+  border-radius: 6px;
+}
