@@ -38,7 +38,7 @@ body {
 .alert {
   width: 600px;
   background: aqua;
-  justify-content: space-between  ;
+  justify-content: space-between;
   padding: 7px;
   height: 30px;
   border-radius: 6px;
