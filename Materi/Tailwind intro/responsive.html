@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Basic: Responsive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- mx-auto: margin left-right auto 
+      ( biar ketengah ) -->
+    <div class="container mx-auto text-center">
+      <div
+        class="bg-teal-300 sm:bg-blue-300 sm:text-sm md:text-xl md:bg-red-300 lg:text-4xl xl:text-6xl p-6 font-bold"
+      >
+        USMAN SAYANK AZAM😘😘🍆💦💦
+      </div>
+      <!-- flexbox basic -->
+      <!-- mobile jadi vertical -->
+      <!-- medium++: jadi horizontal -->
+      <!-- gap: jarak medium antar flex item  -->
+      <div class="flex flex-col md:flex-row gap-4 mt-4">
+        <div class="bg-blue-300 p-4 flex-1">Box-1</div>
+        <div class="bg-red-300 p-4 flex-1">Box-2</div>
+        <div class="bg-yellow-300 p-4 flex-1">Box-3</div>
+      </div>
+      <!-- end flex -->
+       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4 mt-6">
+        <div class="bg-amber-200 p-4">Card-1</div>
+        <div class="bg-amber-100 p-4">Card-2</div>
+        <div class="bg-amber-300 p-4">Card-3</div>
+        <div class="bg-amber-50 p-4">Card-4</div>
+        <div class="bg-amber-500 p-4">Card-5</div>
+       </div>
+    </div>
+  </body>
+</html>
